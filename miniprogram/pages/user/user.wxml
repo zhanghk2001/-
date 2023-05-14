@@ -1,0 +1,36 @@
+<view class="box">
+  <image class="headimg" src="{{userinfo.avatarUrl}}" />
+  <view class="nickname">
+    {{userinfo.nickName}}
+  </view>
+</view>
+
+<view class="selectsta">
+  <text wx:if="{{userinfo==null}}">选择身份登录</text>
+</view>
+<button bindtap="userlogin" data-status="user" wx:if="{{userinfo==null}}">用户</button>
+<button bindtap="spotlogin" data-status="spot" wx:if="{{userinfo==null}}">景区管理员</button>
+<button bindtap="exlogin" data-status="ex" wx:if="{{userinfo==null}}">体验馆管理员</button>
+<!-- 用户界面 -->
+<view class="box" wx:if="{{userinfo!=null && status=='user'}}">
+
+  <button class="mine" bindtap="gotospotticket">
+    我的景区门票
+  </button>
+  <button class="mine" bindtap="gotoexticket">
+    我的体验馆门票
+  </button>
+</view>
+<!-- 景区管理员界面 -->
+<view class="box" wx:if="{{userinfo!=null && status=='spot'}}">
+  <button class="mine" bindtap="gotomyspot">
+    我的景区
+  </button>
+</view>
+  <!-- 体验馆管理员界面 -->
+<view class="box" wx:if="{{userinfo!=null && status=='ex'}}">
+  <button class="mine" bindtap="gotomyex">
+    我的体验馆
+  </button>
+</view>
+<button bindtap="logout" wx:if="{{userinfo!=null}}">退出登录</button>

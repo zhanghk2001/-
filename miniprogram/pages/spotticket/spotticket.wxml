@@ -1,0 +1,10 @@
+<view wx:for="{{list}}" data-id="{{item.ticketid}}">
+  <view class="singleticket">
+    <text class="ticketname">
+      {{item.title}}
+
+    </text>
+    <button class="clockin" bindtap="clockin" data-id="{{item.ticketid}}" data-ticketid="{{item._id}}" wx:if="{{item.isused==false}}">打卡</button>
+    <button class="clockin" wx:if="{{item.isused ==true}}">已打卡</button>
+  </view>
+</view>

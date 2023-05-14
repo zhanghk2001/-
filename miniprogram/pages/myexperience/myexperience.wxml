@@ -1,0 +1,16 @@
+<view class="addcategory" bindtap="addex">
+  增加新的体验馆
+</view>
+<view wx:for="{{list}}" bindtap="gomyDetail" data-id="{{item._id}}">
+  <view class="imgbox">
+    <image src="{{item.img}}" class="singleimg" mode="widthFix" />
+    <view class="box">
+    <text class="text"> {{item.title}}\n</text>
+    <text>到访人数为{{item.countpeople}}\n</text>
+    <text>营业额为{{item.countincome}}</text>
+    </view>
+
+
+  </view>
+
+</view>

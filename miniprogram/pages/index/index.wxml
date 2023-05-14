@@ -1,0 +1,22 @@
+<view class="search_index">
+<!--  搜索开始  -->
+<SearchInput></SearchInput>
+<!--  搜索结束  -->
+</view>
+<swiper autoplay interval="3000" circular 	indicator-dots>
+
+<swiper-item class="imgItem" wx:for="{{imglist}}" wx:key="index">
+    <image mode="widthFix" src="../../images/{{item}}.jpg" />
+</swiper-item>
+
+</swiper>
+
+<!--楼层开始-->
+<view class="index_flow">
+  <view class="image_flow" wx:for="{{list}}">
+    <view class="single_image" bindtap="goDetail" data-id="{{item._id}}">
+      <image src="{{item.img}}" mode="widthFix" class="img"></image>
+    </view>
+  </view>
+</view>
+<!--楼层结束-->

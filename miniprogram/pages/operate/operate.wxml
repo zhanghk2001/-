@@ -1,0 +1,2 @@
+<button class="op" bindtap="gospotdetail">查看详情信息</button>
+<button bindtap="go">查看体验馆数据</button>

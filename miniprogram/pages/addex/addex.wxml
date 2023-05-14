@@ -1,0 +1,21 @@
+<view class="all">
+  <view class="head_image">
+    <image src="../../images/upload.png" bindtap="addimg" wx:if="{{img == null}}" />
+    <image src="{{img}}" bindtap="addimg" wx:if="{{img !=null}}" />
+  </view>
+  <view class="sec_title">名称</view>
+  <input type="text" class="update" bindinput="getTitle" />
+  <view class="sec_title">地址</view>
+
+  <input type="text" class="update" bindinput="getLocation" />
+  <view class="sec_title">价格</view>
+  <input type="text" class="update" bindinput="getPrice" />
+  <view class="sec_title">所属景区的id</view>
+  <input type="text" class="update" bindinput="getId" />
+  <!-- <view class="sec_title">包含（服务）</view>
+
+  <input type="text" class="update" bindinput="getService" /> -->
+  <button type="primary" bindtap="addex">添加</button>
+
+
+</view>

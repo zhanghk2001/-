@@ -1,0 +1,17 @@
+<view class="all">
+  <view class="head_image">
+    <image src="{{items.img}}"></image>
+  </view>
+  <view class="title">{{items.title}}</view>
+
+  <view class="sec_title">地址</view>
+  <view class="location">{{items.location}}</view>
+  <view class="price">{{items.price}}元</view>
+  <view class="sec_title">包含</view>
+  <view class="service">{{items.service}}</view>
+
+
+</view>
+
+<button bindtap="delItem" type="primary">删除</button>
+<button bindtap="updatedetail" type="primary">修改</button>

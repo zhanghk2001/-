@@ -1,0 +1,46 @@
+/* pages/mycategory/mycategory.wxss */
+.singlebox {
+  margin-left: 10px;
+  margin-top: 30rpx;
+  margin: 1.5%;
+  width: 360px;
+  height: 120px;
+  float: left;
+}
+
+.addcategory {
+  font-size: 20px;
+  font-family: Helvetica;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 10%;
+  color: darkslategray;
+}
+
+.imgbox {
+  float: right;
+  border-color: green;
+  height: 100px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.singleimg {
+  height: 100%;
+  margin-left: 10rpx;
+  width: 40%;
+  border: 1px solid red;
+}
+
+.box {
+  border: 1px solid red;
+  width: 58%;
+  float: right;
+  margin-left: -10px;
+  height: 100%;
+}
+text{
+  margin-left: 3px;
+  color: red;
+  margin: 10px;
+}

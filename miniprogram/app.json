@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/user",
+    "pages/myexperience/myexperience",
+    "pages/detail/detail",
+    "pages/search/search",
+    "pages/updatedetail/updatadetail",
+    "pages/addex/addex",
+    "pages/myexdetail/myexdetail",
+    "pages/myspot/myspot",
+    "pages/myspotdetail/myspotdetail",
+    "pages/addspot/addspot",
+    "pages/spotdetail/spotdetail",
+    "pages/spotticket/spotticket",
+    "pages/exticket/exticket",
+    "pages/operate/operate",
+    "pages/spotde/spotde",
+    "pages/updatespot/updatespot"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#93b5cf",
+    "navigationBarTitleText": "景区体验馆",
+    "navigationBarTextStyle": "black"
+    
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "icon/home.png",
+      "selectedIconPath": "icon/_home.png"
+    },
+
+    {
+      "pagePath": "pages/user/user",
+      "text": "我的",
+      "iconPath": "icon/my.png",
+      "selectedIconPath": "icon/_my.png"
+    }
+  ]
+  },
+"coment":{
+  "pagePath": "pages/category/category",
+  "text": "分类",
+  "iconPath": "icon/else.png",
+  "selectedIconPath": "icon/_else.png"
+},
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

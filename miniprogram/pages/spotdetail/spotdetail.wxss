@@ -1,0 +1,40 @@
+/* pages/detail/detail.wxss */
+.head_image {
+  width: 100%;
+}
+.head_image image {
+  width: 100%;
+}
+.title {
+  /*font-weight: bolder;*/
+  font-size: 60rpx;
+  margin: 5px;
+  padding: 0;
+  border-style: none;
+}
+.sec_title {
+  margin: 3px;
+  padding: 2px;
+  font-weight: bold;
+  font-size: 30px;
+}
+.location {
+  margin: 12px;
+  font-size: 20px;
+}
+.service {
+  margin: 12px;
+  font-size: 20px;
+}
+.price{
+  font-size: 50px;
+}
+input{
+  border:1px solid forestgreen;
+}
+button{
+  margin: 3px;
+}
+.tip{
+  color:darkblue
+}

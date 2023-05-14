@@ -1,0 +1,120 @@
+{
+  "projectname": "%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1",
+  "setting": {
+    "compileHotReLoad": true,
+    "urlCheck": false
+  },
+  "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "首页",
+          "pathName": "pages/index/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "详情",
+          "pathName": "pages/detail/detail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "分类",
+          "pathName": "pages/category/category",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "用户",
+          "pathName": "pages/user/user",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "测试",
+          "pathName": "pages/test/test",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "云函数",
+          "pathName": "pages/yunhanshu/yunhanshu",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "上传图片",
+          "pathName": "pages/uploadimage/uploadimage",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "搜索",
+          "pathName": "pages/search/search",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "我的体验馆",
+          "pathName": "pages/myexperience/myexperience",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "添加新体验官",
+          "pathName": "pages/addex/addex",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "我的门票",
+          "pathName": "pages/myticket/myticket",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "选择身份",
+          "pathName": "pages/selectstatus/selectstatus",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "测试",
+          "pathName": "pages/addarr/addarr",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "我的景区",
+          "pathName": "pages/myspot/myspot",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "管理",
+          "pathName": "pages/operate/operate",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
+    }
+  },
+  "libVersion": "2.10.4"
+}

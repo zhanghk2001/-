@@ -1,0 +1,33 @@
+.box{
+  text-align: center;
+}
+.headimg{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.nickname{
+  margin-top: 3px;
+  font-size: larger;
+}
+.mine{
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+.box{
+  width: 100%;
+}
+/* pages/selectstatus/selectstatus.wxss */
+.selectsta{
+  height: 200rpx;
+  text-align: center;
+  margin: 20px;
+}
+text{
+  font-weight: bolder;
+  font-size: 30px;
+}
+button{
+  margin: 10px;
+}

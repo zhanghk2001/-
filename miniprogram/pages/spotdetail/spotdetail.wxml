@@ -1,0 +1,23 @@
+<view class="all">
+  <view class="head_image">
+    <image src="{{items.img}}"></image>
+  </view>
+  <view class="title">{{items.title}}</view>
+
+  <view class="sec_title">地址</view>
+  <view class="location">{{items.location}}</view>
+  <view class="sec_title">门票价格</view>
+  <view class="price">{{items.price}}元</view>
+  <view class="sec_title">包含的体验馆</view>
+  <view class="tip">（点击名称进入体验馆详情页购买体验馆门票）</view>
+  <view wx:for="{{list}}" bindtap="gotoex" data-id="{{item._id}}">
+  <view class="location">
+    {{item.title}}
+  </view>
+
+  </view>
+
+
+</view>
+
+<button bindtap="getTicket" type="primary">购买</button>

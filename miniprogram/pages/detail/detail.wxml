@@ -1,0 +1,12 @@
+<view class="all">
+  <view class="head_image">
+    <image src="{{items.img}}"></image>
+  </view>
+  <view class="title">{{items.title}}</view>
+
+  <view class="sec_title">地址</view>
+  <view class="location">{{items.location}}</view>
+  <view class="price">{{items.price}}元</view>
+</view>
+
+<button bindtap="getTicket" type="primary">购买</button>

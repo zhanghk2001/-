@@ -1,0 +1,17 @@
+pages,view,text,navigator,swiper-item,image{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/*
+  主体颜色
+*/
+page{
+  --themeColor:#93b5cf;
+
+  /*
+  定义统一字体大小
+*/
+
+  font-size: 28rpx;
+}

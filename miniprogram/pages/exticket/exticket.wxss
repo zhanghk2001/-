@@ -1,0 +1,17 @@
+.singleticket {
+  margin: 5px;
+  border: 1px solid lightcyan;
+  background-color: lightblue ;
+  border-radius: 2%;
+  text-align: center;
+}
+
+text {
+  color: black;
+  font-weight: bolder;
+
+}
+button{
+  background-color: azure;
+  margin-bottom: 10px;
+}

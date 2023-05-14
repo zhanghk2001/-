@@ -1,0 +1,26 @@
+/*  使用主体颜色  */
+swiper {
+  width: 100%;
+  height: calc(100vw * 180 / 256);
+}
+
+image {
+  width: 100%;
+}
+
+.index_flow image {
+
+  border-radius: 10%;
+}
+
+.single_image {
+  width: 47%;
+  height: 120px;
+  float: left;
+  margin-top: 10rpx;
+  margin: 1.5%;
+}
+
+.img {
+  height: 100px;
+}

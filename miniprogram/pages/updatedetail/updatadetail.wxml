@@ -1,0 +1,15 @@
+<view class="all">
+  <view class="head_image" bindtap="addimg">
+    <image src="{{items.img}}"></image>
+  </view>
+  <view class="sec_title">名称</view>
+  <input type="text" class="update" placeholder="{{items.title}}" bindinput="getTitle" />
+  <view class="sec_title">地址</view>
+
+  <input type="text" class="update" placeholder="{{items.location}}" bindinput="getLocation" />
+  <view class="sec_title">价格</view>
+  <input type="text" class="update" placeholder="{{items.price}}" bindinput="getPrice" />
+  <button type="primary" bindtap="updateCat">修改</button>
+
+
+</view>
